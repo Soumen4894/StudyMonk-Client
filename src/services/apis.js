@@ -1,4 +1,5 @@
-const BASE_URL = "http://localhost:4000/api/v1"
+//const BASE_URL = "http://localhost:4000/api/v1"
+const BASE_URL = "study-monk-server-ebon.vercel.app"
 
 // AUTH ENDPOINTS
 export const endpoints = {
