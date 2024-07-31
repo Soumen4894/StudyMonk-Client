@@ -1,6 +1,6 @@
 //const BASE_URL = "http://localhost:4000/api/v1"
-const BASE_URL = "https://study-monk-server-phi.vercel.app"
-//const BASE_URL = "https://study-monk-server.onrender.com"
+//const BASE_URL = "https://study-monk-server-phi.vercel.app"
+const BASE_URL = "https://studymonk-server.onrender.com"
 
 // AUTH ENDPOINTS
 export const endpoints = {
