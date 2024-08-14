@@ -43,7 +43,7 @@ export async function buyCourse(token, courses, userDetails, navigate, dispatch)
         if(!orderResponse.data.success) {
             throw new Error(orderResponse.data.message);
         }
-        console.log("PRINTING orderResponse", orderResponse);
+        //console.log("PRINTING orderResponse", orderResponse);
         //options
         //console.log(orderResponse.data.data.currency)
         const options = {
@@ -65,8 +65,8 @@ export async function buyCourse(token, courses, userDetails, navigate, dispatch)
                 verifyPayment({...response, courses}, token, navigate, dispatch);
             }
         }
-        console.log("I am Soumen")
-        console.log("I am Soumen")
+        //console.log("I am Soumen")
+        //console.log("I am Soumen")
         //miss hogya tha 
         const paymentObject = new window.Razorpay(options);
         paymentObject.open();
